@@ -1,0 +1,125 @@
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-carrosel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 35px;
+    position: relative;
+    z-index: 10;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 10;
+    margin-top: 350px;
+    margin-bottom: 0;
+}
+
+.content-card img{
+    width: 260px;
+    height: 240px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.content-card .botao{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px 18px;
+    background-color: #262626;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 20;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+.content-card .botao:hover{
+    background-color: #fff;
+    color: #262626;
+    z-index: 20;
+}
+
+/**/
+.content-carrosel .nav-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 400px;
+    z-index: 20;
+}   
+
+.content-carrosel .nav-auto div{
+    border: 2px solid #262626;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.content-carrosel .nav-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+.content-carrosel .nav-auto div:hover{
+    background-color: #262626;
+}
+
+.content-carrosel .nav-auto div{
+    background-color: #fff;
+}
+
+
+.content-carrosel .nav-manual{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 400px;
+    z-index: 20;
+}
+
+.content-carrosel .nav-manual div{
+    border: 2px solid #262626;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.content-carrosel .nav-manual div:not(:last-child){
+    margin-right: 40px;
+}
+
+.content-carrosel .nav-manual div:hover{
+    background-color: #262626;
+}

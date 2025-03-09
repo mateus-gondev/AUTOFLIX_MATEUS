@@ -2,3 +2,40 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+.body{
+    background-image: url(../img/FundoTeste.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Poppins;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
