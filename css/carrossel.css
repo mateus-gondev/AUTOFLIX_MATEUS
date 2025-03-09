@@ -1,0 +1,92 @@
+
+.carousel.slide {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-inner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.carousel-item.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 30px;
+}
+
+
+.card{
+    background-color: #bb1111;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 266px;
+    height: 275px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 10;
+    
+}
+
+.card img {
+    width: 260px;
+    height: 240px;
+    cursor: pointer;
+}
+
+
+.carousel-control-prev{
+    position: relative;
+    z-index: 10;
+    background-color: #bb1111;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    bottom: 10px;
+}
+
+.carousel-control-next{
+    position: relative;
+    z-index: 10;
+    background-color: #bb1111;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    bottom: 10px;
+}
+
+.carousel-control-prev-icon{
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+

@@ -6,14 +6,19 @@
     <title>AutoFlix</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/carrossel.css">
     <script src="js/carrosel.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    
+    
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/Logo.png" >
+                <span class = "logo">AUTOFLIX</span>
             </div>
             <ul class="lista" >
                 <li><a href="#">Home</a></li>
@@ -27,60 +32,36 @@
             </div>
         </nav>
     </header>
-
+    
     <main>
-        <img class="fundo" src="img/FundoTeste2.jpg">
-    
-<selection class="content-carrosel" >  
-    <!--MEUS CARDS-->
-        <div class="content-carrosel">
-            <!--CARD 1-->
-            <div class="content-card">
-            <img class="card" src="img/suv.png">
-            <button class="botao" type="submit">Visualizar</button>
-            </div>
-            <!--CARD 2-->
-            <div class="content-card">
-            <img class="card" src="img/picape.png">
-            <button class="botao" type="submit">Visualizar</button>
-            </div>
-            <!--CARD 3-->
-            <div class="content-card">
-            <img class="card" src="img/tesla.png">
-            <button class="botao" type="submit">Visualizar</button>
-            </div>
-            <!--CARD 4-->
-            <div class="content-card">
-            <img class="card" src="img/popular.png">
-            <button class="botao" type="submit">Visualizar</button>
+        <!-- Background do main Welsey-->
+        <div class="picbackground1">
+            <img class ="imgbackground1" src="img/Fundo1w.png" alt="Ford Expedition 2020">
+            
+            <!-- Div para texto de informações do Veículo na foto-->
+            <div class="textpicBG1">
+                <h1>Ford Expedition</h1>   
+                	
+                    <br>O Ford Expedition 2020 é um SUV de grande porte, equipado com um<br> motor V6 turbo de 3,5 litros que oferece desempenho
+                    robusto e uma <br>capacidade de reboque impressionante de até 9.300 libras. 
+                    Seu interior<br> luxuoso acomoda até oito passageiros com conforto, 
+                    e vem com o<br> sistema de infotainment SYNC 3 da Ford, compatível com Apple CarPlay<br> e Android Auto. No entanto, 
+                    o tamanho grande pode dificultar a <br>manobrabilidade e o consumo de combustível é relativamente alto,<br>     
+                    com uma média de 20 mpg combinados, tornando-o ideal para famílias <br>que precisam de muito espaço e capacidade de reboque.
             </div>
 
-    <!--MEUS CARDS PART2-->
-            <!--CARD 5-->
-            <div class="content-card">
-            <img class="card" src="img/luxo.png">
-            <button class="botao" type="submit">Visualizar</button>
-            </div>
-            <!--CARD 6-->
-            <div class="content-card">
-            <img class="card" src="img/popular.png">
-            <button class="botao" type="submit">Visualizar</button>
-            </div>
-            <!--CARD 7-->
-            <div class="content-card">
-            <img class="card" src="img/picape.png">
-            <button class="botao" type="submit">Visualizar</button>
-            </div>
-            <!--CARD 8-->
-            <div class="content-card">
-            <img class="card" src="img/tesla.png">
-            <button class="botao" type="submit">Visualizar</button>
-            </div>    
+            <!-- Criação do botão de redirecionamento-->
+            <button class="botãosite" onclick= "window.location.href='https://media.ford.com/content/fordmedia/fna/us/en/products/crossovers---suvs/expedition/2020-expedition.html'"> Site Oficial</button>
+            <button class="botãosite" onclick= "window.location.href='https://www.webmotors.com.br/carros/estoque/ford/expedition?tipoveiculo=carros&marca1=ford&modelo1=expedition&page=1'">Sites parceiros</button>
         </div>
-</selection>
-    </main>
-    
 
+    
+    </main>
+    <footer>
+    </footer>
+
+
+<!--Direcionar Para Login-->
 <script>
     function redirecionar() {
         window.location.href = "login.html";
