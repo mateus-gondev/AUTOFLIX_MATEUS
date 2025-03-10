@@ -33,6 +33,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
     margin-inline: 2%;
+    cursor: pointer;
 }
 
 .lista{
