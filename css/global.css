@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #342929;
+    background-color: #1b1b1b !important;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,8 +14,7 @@ body {
     min-height: 100vh;
 }
 
-
-/*MAIN - WESLEY*/
+/*MAIN 1- WESLEY*/
 main{
     font-size: 10px;
     display: flex;
@@ -70,5 +69,62 @@ main{
     transform: scale(1.1);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease-in-out;
+}
+/*MAIN 2 MATEUS - NOSSOS SERVIÇOS*/
+.srviços {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    margin-bottom: 50px;
+    gap: 5px;
+    padding: 30px 20px;
+}
+
+.serviços-titulo h2 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.container-serviço-td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container-serviço {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+.container-serviço img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(37, 37, 37, 0.25);
+}
+
+.container-serviço img:hover {
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
